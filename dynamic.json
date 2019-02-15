@@ -1,0 +1,47 @@
+{
+"profile":{
+	"img":"pro pic.jpg",
+	"name":"adithya",
+	"roll":"540",
+	"place":"kakinada",
+	"des":"trainer cum developer"
+},
+"career":{
+	"info":" I want to become a software professional"
+},
+"education":[
+{
+	"sno":"1",
+	"degree":"b.tech",
+	"institute":"PEC",
+	"per":"90",
+	"yop":"2020"
+},
+{
+	"sno":"2",
+	"degree":"intermediate",
+	"institute":"sri chaitanya",
+	"per":"95",
+	"yop":"2016"
+},
+{
+	"sno":"3",
+	"degree":"s.s.c",
+	"institute":"new century",
+	"per":"98",
+	"yop":"2015"
+}
+],
+
+"languages":[
+	{
+		"lang":"english"
+	},
+	{
+		"lang":"telugu"
+	},
+	{
+		"lang":"hindi"
+	}
+]
+}

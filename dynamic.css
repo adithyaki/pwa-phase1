@@ -1,0 +1,144 @@
+body{
+	background:aqua;
+}
+.main{
+	background: pink;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 3%;
+}
+.right{
+	border-radius: 5%;
+	margin-top: 4%;
+	justify-content: space-around;
+	text-align: center;
+	background: bisque;
+	border-radius:4%
+	box-shadow:4px 4px 4px 4px;
+	margin-bottom: 4%;
+	width: 30%;
+	margin-left: -10%;
+
+
+}
+.left{
+	background-color: red;
+	height: 50%;
+	margin-bottom: 10%;
+	background: bisque;
+	margin: 5%;
+	border-radius:4%;
+	box-shadow:4px 4px 4px 4px; 
+	width:25%;
+	text-align: center;
+}
+img{
+	height: 50%;
+	width:90%;
+	margin: 3%;
+	border-radius: 4%;
+}
+ul{
+	text-align: left;
+}
+table{
+	margin-left: 10%;
+}
+
+@media screen and (min-width:320px ) and (max-width: 480px){
+body{
+	background: red;
+}
+.main{
+	background: bisque;
+	display: inline-block;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 3%;
+}
+.right{
+	border-radius: 5%;
+	margin-top: 4%;
+	justify-content: space-around;
+	text-align: center;
+	background: pink;
+	border-radius:4%
+	box-shadow:4px 4px 4px 4px;
+	margin-bottom: 4%; 
+
+}
+.left{
+	background-color: pink;
+	height: 50%;
+	margin-bottom: 10%;
+	background: bisque;
+	margin: 5%;
+	border-radius:4%;
+	box-shadow:4px 4px 4px 4px; 
+	width:50%;
+	text-align: center;
+	margin: 25%;
+}
+
+img{
+	height: 50%;
+	width: 90%;
+	margin: 3%;
+	border-radius: 4%;
+}
+ul{
+	text-align: left;
+}
+table{
+	margin-left: 10%;
+}
+}
+@media screen and (min-width:481px ) and (max-width: 720px){
+body{
+	background: green;
+}
+.main{
+	background: bisque;
+	display: inline-block;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 3%;
+}
+.right{
+	border-radius: 5%;
+	margin-top: 4%;
+	justify-content: space-around;
+	text-align: center;
+	background: pink;
+	border-radius:4%
+	box-shadow:4px 4px 4px 4px;
+	margin-bottom: 4%; 
+
+}
+.left{
+	background-color: pink;
+	height: 20%;
+	margin-bottom: 10%;
+	background: bisque;
+	margin: 5%;
+	border-radius:4%;
+	box-shadow:4px 4px 4px 4px; 
+	width:30%;
+	text-align: center;
+	margin: 25%;
+}
+
+img{
+	height: 50%;
+	width: 90%;
+	margin: 3%;
+	border-radius: 4%;
+}
+ul{
+	text-align: left;
+}
+table{
+	margin-left: 10%;
+	}
+}
